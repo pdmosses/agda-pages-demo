@@ -1,0 +1,14 @@
+nav:
+  - Home: index.md
+  - Demo:
+    - Demo/index.md
+    - Demo/*
+  - Library:
+    - Library/index.md
+    - '*'
+
+sort:
+  sections: mixed
+  ignore_case: true
+
+preserve_directory_names: true
