@@ -1,2 +1,18 @@
-# agda-pages-demo
-Demo of website generation for Agda code
+# Agda-Pages Demo
+
+This repository illustrates and tests use of **[Agda-Pages]** to
+**generate websites** with **module navigation** between
+**highlighted, hyperlinked listings** of Agda code.
+
+The following shell commands generated the [Agda-Pages] website from
+this repository, then previewed it locally before deploying to GitHub Pages:
+
+```shell
+cd pages
+make check
+make web
+make serve
+make deploy
+```
+
+[Agda-Pages]: https://pdmosses.github.io/agda-pages/
