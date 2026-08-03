@@ -1,9 +1,9 @@
-INHERIT: ../../agda-pages/agda-pages.yml
+INHERIT: agda-pages/agda-pages.yml
 
 site_name: Agda-Pages Demo
-site_url: https://pdmosses.github.io/agda-pages-demo/
+site_url:  https://pdmosses.github.io/agda-pages-demo/
 repo_name: agda-pages-demo
-repo_url: https://github.com/pdmosses/agda-pages-demo
+repo_url:  https://github.com/pdmosses/agda-pages-demo
 
 # To deploy website versions:
 # - install mike (https://github.com/jimporter/mike/)
