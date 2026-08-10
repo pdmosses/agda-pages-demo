@@ -30,8 +30,8 @@ to Markdown as so-called *front matter*.
 module Demo.Literate.Metadata where
 ```
 
-The webpage generated from this file does not display the metadata. The `tags`
-array in the metadata could be used in conjunction with the [tags] plugin
+The webpage generated from this file does not display the metadata, but
+the `tags` array in it could be used in conjunction with the [tags] plugin
 to produce a page listing links to all pages with each tag.
 
 [tags]: https://squidfunk.github.io/mkdocs-material/plugins/tags/
