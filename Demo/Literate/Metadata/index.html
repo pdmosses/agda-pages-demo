@@ -299,6 +299,25 @@
   
 
       
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -12835,6 +12854,33 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -12969,6 +13015,31 @@
                 
                   
 
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <a href="../../../Tags/#tag:markdown" class="md-tag">Markdown</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../../Tags/#tag:front-matter" class="md-tag">front matter</a>
+      
+    
+      
+      
+      
+      
+        <a href="../../../Tags/#tag:metadata" class="md-tag">metadata</a>
+      
+    
+  </nav>
+
 
   
   
@@ -12987,15 +13058,20 @@ following metadata:</p>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">metadata</span>
 <span class="nn">---</span>
 </code></pre></div>
-<p>Metadata is not part of Markdown, but often supported by website builders.
-It is written in YAML, enclosed by lines consisting of <code>---</code>, and prepended
+<p>Metadata is not part of Markdown, but often supported by website builders.</p>
+<p>Metadata is written in YAML, enclosed by lines consisting of <code>---</code>, and prepended
 to Markdown as so-called <em>front matter</em>. </p>
-<pre class="Agda"><code class="Agda"><a id="499" class="Keyword">module</a> <a id="506" href="../../../Demo/Literate/Metadata/" class="Module">Demo.Literate.Metadata</a> <a id="529" class="Keyword">where</a>
+<pre class="Agda"><code class="Agda"><a id="506" class="Keyword">module</a> <a id="513" href="../../../Demo/Literate/Metadata/" class="Module">Demo.Literate.Metadata</a> <a id="536" class="Keyword">where</a>
 </code></pre>
 
-<p>The webpage generated from this file does not display the metadata, but
-the <code>tags</code> array in it could be used in conjunction with the <a href="https://squidfunk.github.io/mkdocs-material/plugins/tags/">tags</a> plugin
-to produce a page listing links to all pages with each tag.</p>
+<p>When the website configuration file includes the <a href="https://squidfunk.github.io/mkdocs-material/plugins/tags/">tags</a> plugin,
+all webpages display the elements of the <code>tags</code> list in their metadata.</p>
+<p>You can create a page that includes a global tags index by adding the
+following HTML comment with <code>...</code> replaced by <code>material/tags</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="cm">&lt;!-- ... --&gt;</span>
+</code></pre></div>
+<p>Currently, only the present page has metadata that includes a <code>tags</code> list,
+as shown on the <a href="../../../Tags/">Tags page</a>.</p>
 
 
 
