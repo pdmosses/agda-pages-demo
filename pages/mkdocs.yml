@@ -16,3 +16,11 @@ repo_url:  https://github.com/pdmosses/agda-pages-demo
 # For a custom list of features, override the inherited list:
 # - append a copy of the default list from agda-pages/agda-pages-features.yml;
 # - add and/or remove features from the list.
+
+markdown_extensions:
+  pymdownx.striphtml:
+    strip_comments: true
+    strip_js_on_attributes: false
+
+plugins:
+  tags: {}

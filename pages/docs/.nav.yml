@@ -6,6 +6,7 @@ nav:
   - Library:
     - Library/index.md
     - '*'
+  - Tags.md
 
 sort:
   sections: mixed
