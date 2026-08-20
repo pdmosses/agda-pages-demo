@@ -1,6 +1,6 @@
-# A Literate Markdown Agda Module
+# A Literate Markdown Module
 
-This literate Agda file has extension `lagda.md`.
+This literate Markdown file has extension `lagda.md`.
 
 ```agda
 module Demo.Literate.Markdown where
