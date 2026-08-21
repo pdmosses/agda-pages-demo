@@ -4,7 +4,7 @@ This repository illustrates and tests use of **[Agda-Pages]** to
 **generate websites** with **module navigation** between
 **highlighted, hyperlinked listings** of Agda code.
 
-The following shell commands generated the [Agda-Pages] website from
+The following shell commands generated the [Agda-Pages Demo] website from
 this repository, then previewed it locally before deploying to GitHub Pages:
 
 ```shell
@@ -15,4 +15,5 @@ make serve
 make deploy
 ```
 
-[Agda-Pages]: https://pdmosses.github.io/agda-pages/
+[Agda-Pages]:      https://pdmosses.github.io/agda-pages/
+[Agda-Pages Demo]: https://pdmosses.github.io/agda-pages-demo/
