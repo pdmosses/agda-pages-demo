@@ -29,7 +29,7 @@ make deploy
 
 [Demo]:       Demo/index.md
 [Library]:    Library/index.md
-[Agda-Pages]: https://pdmosses.github.io/agda-pages/
-[About]:      https://pdmosses.github.io/agda-pages/About/
-[User Guide]: https://pdmosses.github.io/agda-pages/User-Guide/
+[Agda-Pages]: https://pdmosses.github.io/agda-pages/default/
+[About]:      https://pdmosses.github.io/agda-pages/default/About/
+[User Guide]: https://pdmosses.github.io/agda-pages/default/User-Guide/
 [Repository]: https://github.com/pdmosses/agda-pages-demo/
