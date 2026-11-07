@@ -12994,52 +12994,67 @@
 
   <h1>LaTeX</h1>
 
-<pre class="Agda"><code class="Agda"><a id="14" class="Keyword">module</a> <a id="21" href="../../../Demo/Space/LaTeX/" class="Module">Demo.Space.LaTeX</a>
+<pre class="Agda"><code class="Agda"><a id="1" class="Markup">\begin{code}</a>
+<a id="14" class="Keyword">module</a> <a id="21" href="../../../Demo/Space/LaTeX/" class="Module">Demo.Space.LaTeX</a>
   <a id="40" class="Keyword">where</a>         <a id="54" class="Comment">-- this line is indented 2 spaces</a>
 <a id="88" class="Keyword">module</a> <a id="95" href="../../../Demo/Space/LaTeX/#95" class="Module">_</a> <a id="97" class="Keyword">where</a>  <a id="104" class="Comment">-- this line is not indented</a>
-</code>
+<a id="133" class="Markup">\end{code}</a><a id="143" class="Background">
+
 The above code block starts on the first line, and is followed by a blank line.
 
 The following code block is not preceded by a blank line.
-<code class="Agda"><a id="297" class="Comment">-- Agda does not require blank lines around code blocks.</a>
-</code>It is also not followed by a blank line.
+</a><a id="284" class="Markup">\begin{code}</a>
+<a id="297" class="Comment">-- Agda does not require blank lines around code blocks.</a>
+<a id="354" class="Markup">\end{code}</a><a id="364" class="Background">
+It is also not followed by a blank line.
 
 The following code block is preceded by a blank line.
 
-<code class="Agda"><a id="475" class="Comment">-- Agda allows blank lines around code blocks</a>
-</code>
+</a><a id="462" class="Markup">\begin{code}</a>
+<a id="475" class="Comment">-- Agda allows blank lines around code blocks</a>
+<a id="521" class="Markup">\end{code}</a><a id="531" class="Background">
+
 It is also followed by a blank line.
 
 Blank lines inside code blocks are preserved:
 
-<code class="Agda">
+</a><a id="618" class="Markup">\begin{code}</a>
+
 <a id="632" class="Comment">-- This code line has blank lines around it.</a>
 
-</code>
+<a id="678" class="Markup">\end{code}</a><a id="688" class="Background">
+
 The following code block is completely empty:
 
-<code class="Agda"></code>
+</a><a id="737" class="Markup">\begin{code}</a>
+<a id="750" class="Markup">\end{code}</a><a id="760" class="Background">
+
 The following empty-looking code block has multiple newlines and spaces:
 
-<code class="Agda">    
+</a><a id="836" class="Markup">\begin{code}</a>
 
-</code>
+
+<a id="857" class="Markup">\end{code}</a><a id="867" class="Background">
+
 They are preserved.
 
 Agda code can be indented:
 
-<code class="Agda">  <a id="933" class="Comment">-- This comment is indented 2 spaces.</a>
+</a><a id="918" class="Markup">\begin{code}</a>
+  <a id="933" class="Comment">-- This comment is indented 2 spaces.</a>
 
   <a id="974" class="Keyword">module</a> <a id="981" href="../../../Demo/Space/LaTeX/#981" class="Module">_</a>
     <a id="987" class="Keyword">where</a>
     <a id="997" class="Comment">-- This comment is indented 4 spaces.</a>
 
 <a id="1036" class="Comment">-- This comment is not indented.</a>
-</code>
+<a id="1069" class="Markup">\end{code}</a><a id="1079" class="Background">
+
 The code block itself can be indented:
 
-<code class="Agda">  <a id="1138" class="Comment">-- This indented comment is in an indented code block.</a>
-</code></pre>
+  </a><a id="1123" class="Markup">\begin{code}</a>
+  <a id="1138" class="Comment">-- This indented comment is in an indented code block.</a>
+  <a id="1195" class="Markup">\end{code}</a></code></pre>
 
 
 
